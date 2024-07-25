@@ -47,7 +47,8 @@ terraform apply
 Confirm the actions proposed by Terraform when prompted.
 
 Configuration
-Default variables are defined in the variables.tf files of each module. These can be customized by overriding them in app/main.tf when calling the modules. Alternatively, you can create a terraform.tfvars file in the app folder or pass variables directly via the command line.
+Default variables are defined in the variables.tf files of each module. These can be customized by overriding them in app/main.tf when calling the modules. 
+Alternatively, you can create a terraform.tfvars file in the app folder or pass variables directly via the command line.
 
 Example content for app/terraform.tfvars:
 
