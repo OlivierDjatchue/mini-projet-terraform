@@ -44,27 +44,21 @@ terraform init
 4) apply the Terraform configure
 ```bash
 Terraform init
-```Configuration
+```
+5) Configuration
 Default variables are defined in the variables.tf files of each module. These can be customized by overriding them in app/main.tf when calling the modules. Alternatively, you can create a terraform.tfvars file in the app folder or pass variables directly via the command line.
 
-Example content for app/terraform.tfvars:
 
-hcl
-Copy code
-instancetype = "t2.micro"
-ebs_size = 10
-sg_name = "app-sg"
-
-Outputs
+6) Outputs
 After execution, Terraform will display the IDs of the created resources, including the EC2 instance ID and the name of the security group. The public IP address of the instance will also be available in the app/ip_ec2.txt file.
 
-Cleanup
+7) Cleanup
 To destroy the infrastructure created by Terraform and avoid additional charges, run:
-
-sh
-Copy code
+```bash
 terraform destroy
-Security
+```
+
+8) Security
 Never version your private keys or Terraform state files.
 Use restrictive IAM policies to control access to AWS resources.
 
