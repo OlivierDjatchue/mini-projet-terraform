@@ -27,11 +27,12 @@ The project is organized into reusable modules for easier management and mainten
 
 # Quick Start
 1) Clone this repository to your local machine:
-´´´bash
-https://github.com/OlivierDjatchue/mini-projet-terraform.git
-2) cofigure aws CLI
 ```bash
-$ aws configure
+https://github.com/OlivierDjatchue/mini-projet-terraform.git
+```
+3) cofigure aws CLI
+```bash
+aws configure
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: us-west-2
