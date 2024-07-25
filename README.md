@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/83452432-e351-470b-b234-cc730f9d50e1)
+
+
 This project utilizes Terraform to deploy a web application on AWS by provisioning an EC2 instance with Ubuntu Bionic, an EBS volume, a public IP address, and a security group.
 
 Project Structure
