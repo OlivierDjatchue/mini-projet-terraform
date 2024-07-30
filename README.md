@@ -59,9 +59,7 @@ To destroy the infrastructure created by Terraform and avoid additional charges,
 terraform destroy
 ```
 
-8) Security
-Never version your private keys or Terraform state files.
-Use restrictive IAM policies to control access to AWS resources.
+
 
    
 
