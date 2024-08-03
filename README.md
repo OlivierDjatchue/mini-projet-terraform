@@ -44,7 +44,7 @@ terraform init
 ```
 4) apply the Terraform configure
 ```bash
-Terraform init
+Terraform apply
 ```
 5) Configuration
 Default variables are defined in the variables.tf files of each module. These can be customized by overriding them in app/main.tf when calling the modules. Alternatively, you can create a terraform.tfvars file in the app folder or pass variables directly via the command line.
